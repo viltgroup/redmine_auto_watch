@@ -2,4 +2,9 @@ Useful plugin for Redmine written by Teddy Lerat.
 
 Redmine 4 compatibility and testing by Kai Bosch from www.heureka.com
 
+Redmine 7 port by VILT (2.0.0). The behaviour is unchanged: the hooks it uses
+(controller_issues_new/edit/bulk_edit_before_save) and Issue#previous_assignee
+still exist. Unlike Redmine 7's own auto-watch preferences, it does not require
+the add_issue_watchers permission and it needs no per-user setting.
+
 http://www.redmine.org/issues/2716
